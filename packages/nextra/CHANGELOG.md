@@ -1,5 +1,39 @@
 # nextra
 
+## 3.0.0-alpha.1
+
+### Major Changes
+
+- 71882780: - insert `frontMatter` as export node via custom remark plugin
+
+  - remove `frontMatter.mdxOptions` support
+
+- 023d37b1: add `"type": "module"` to `nextra` package
+- b9f88e34: - remove `use-internals.ts`
+
+  - remove `layout.tsx`, move directly to `setup-page.tsx`
+  - remove `kind: 'Meta' | 'Folder' | 'MdxPage'` to keep page map smaller
+
+- 1f3e7cd4: - remove `__nextraPageOptions.hot`
+
+  - remove `__nextraPageOptions.pageOptsChecksum`
+  - remove `__nextra_internal__.refreshListeners` (no longer needed since we
+    insert toc as esm node in remark plugin)
+  - remove `hashFnv32a`
+
+- c7f03e54: rename `pageOpts.headings` to `toc`
+
+### Minor Changes
+
+- c7f03e54: should not add virtual `_meta` file if missing
+- a52a869e: add `frontmatter.sidebar_label` support for setting page label in
+  sidebar via frontmatter
+- 4e55c064: add support for `_meta.{js,jsx,ts,tsx}` with JSX support
+
+### Patch Changes
+
+- 1f3e7cd4: fix `pageProps` for NextraLayout
+
 ## 3.0.0-alpha.0
 
 ### Major Changes

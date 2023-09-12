@@ -7,19 +7,31 @@
     "nextra-theme-docs": "2.12.3"
   },
   "changesets": [
+    "brave-ties-train",
+    "chilled-kids-fetch",
+    "cuddly-plants-invite",
     "dirty-buttons-crash",
+    "dull-pugs-train",
     "early-walls-hammer",
+    "fair-balloons-talk",
     "fluffy-rings-play",
+    "fuzzy-meals-care",
     "gentle-monkeys-smash",
+    "little-students-care",
     "loud-schools-decide",
+    "mean-countries-impress",
     "metal-flowers-lie",
     "mighty-cars-hear",
     "moody-pianos-hide",
     "plenty-chairs-raise",
     "poor-carrots-raise",
+    "popular-pianos-smoke",
     "proud-laws-juggle",
+    "red-bees-rush",
     "selfish-penguins-deliver",
     "short-games-carry",
+    "shy-seas-allow",
+    "wet-years-serve",
     "wild-waves-invite"
   ]
 }

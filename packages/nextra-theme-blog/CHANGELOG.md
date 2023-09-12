@@ -1,5 +1,24 @@
 # nextra-theme-blog
 
+## 3.0.0-alpha.1
+
+### Major Changes
+
+- c7f03e54: rename `pageOpts.headings` to `toc`
+
+### Patch Changes
+
+- Updated dependencies [71882780]
+- Updated dependencies [023d37b1]
+- Updated dependencies [c7f03e54]
+- Updated dependencies [a52a869e]
+- Updated dependencies [1f3e7cd4]
+- Updated dependencies [b9f88e34]
+- Updated dependencies [4e55c064]
+- Updated dependencies [1f3e7cd4]
+- Updated dependencies [c7f03e54]
+  - nextra@3.0.0-alpha.1
+
 ## 3.0.0-alpha.0
 
 ### Major Changes

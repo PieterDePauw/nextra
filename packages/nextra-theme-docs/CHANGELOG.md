@@ -1,5 +1,32 @@
 # nextra-theme-docs
 
+## 3.0.0-alpha.1
+
+### Major Changes
+
+- c7f03e54: remove `toc.headingComponent`
+- c7f03e54: rename `pageOpts.headings` to `toc`
+
+### Minor Changes
+
+- c77485ec: set default `head` option as `null`
+- a52a869e: add `frontmatter.sidebar_label` support for setting page label in
+  sidebar via frontmatter
+
+### Patch Changes
+
+- 7457d6b6: remove `git-url-parse` to keep bundle smaller
+- Updated dependencies [71882780]
+- Updated dependencies [023d37b1]
+- Updated dependencies [c7f03e54]
+- Updated dependencies [a52a869e]
+- Updated dependencies [1f3e7cd4]
+- Updated dependencies [b9f88e34]
+- Updated dependencies [4e55c064]
+- Updated dependencies [1f3e7cd4]
+- Updated dependencies [c7f03e54]
+  - nextra@3.0.0-alpha.1
+
 ## 3.0.0-alpha.0
 
 ### Major Changes
